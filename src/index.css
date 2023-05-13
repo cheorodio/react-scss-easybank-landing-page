@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 165px;
+  height: 45px;
+  border-radius: 35px;
+  border: none;
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  color: hsl(0, 0%, 98%);
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 700;
+}
